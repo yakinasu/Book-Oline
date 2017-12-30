@@ -1,0 +1,20 @@
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>ChangeInformation</title>
+	</head>
+	<body>
+		<form method="get" action="./BookUpdateController">
+			確認用のISBNを入力してください。:
+			<input type="text" name ="isbn"><br>
+			<select name="key">
+				<option value="tytle">BookTitle</option>
+				<option value="page">Page</option>
+				<option value="author">Author</option>
+			</select>
+			<br>
+			変更する内容:<input type="text" name="record">
+			<input type="submit" name ="search" value="変更">
+		</form>
+</body>
+</html>
